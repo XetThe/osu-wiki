@@ -1,22 +1,22 @@
-# Interface skinning
+# Skinning de la interfaz
 
-*See also: [Interface](/wiki/Client/Interface)*
+*Ver tambien: [Interface](/wiki/Client/Interface)*
 
 Interface skinning elements are used in multiple game modes or parts of the client's user interface.
 
-## Main menu
+## Menu principal
 
 `menu-background.jpg`
 
 ![](img/menu-background.jpg)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | 1366x768 (see notes) |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | 1366x768 (ver notas) |
 
-Notes:
+Notas:
 
-- [osu!supporter](/wiki/osu!supporter) required.
+- [osu!supporter](/wiki/osu!supporter) requerido.
 - This element is positioned in the centre and is set to cover (fill the entire width and height while keeping its aspect ratio, but crop anything that is outside the game window).
 - By default, osu! has a set of background images that it will cycle through.
   - If this element is skinned and the user has osu!supporter tag, this element will override this behaviour.
@@ -35,13 +35,13 @@ Notes:
 
 ![](img/welcome_text.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | - |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | - |
 
-Notes:
+Notas:
 
-- [osu!supporter](/wiki/osu!supporter) required.
+- [osu!supporter](/wiki/osu!supporter) requerido.
 - This element appears upon starting the client.
 - This element folds out and expands, then fades out.
 
@@ -49,15 +49,15 @@ Notes:
 
 `menu-snow.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Additive | Centre | 32x32 |
+| Todas | ![No][false] | ![No][false] | Aditivo | Centro | 32x32 |
 
-Notes:
+Notas:
 
 - If not skinned, the current game mode's small icon will be used instead.
 - Must be enabled in the [options](/wiki/Client/Options) to see.
-  - This option may forcibly be enabled during the holidays (Christmas and Halloween).
+  - This option may forcibly be enabled during the holidays (Christmas).
 
 ## Button
 
@@ -65,11 +65,11 @@ Notes:
 
 ![](img/button-left.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Multiplicative | Top Right | - |
+| Todas | ![No][false] | ![No][false] | Multiplicativo | Esquinoa Superior Derecha | - |
 
-Notes:
+Notas:
 
 - Use same height as other button pieces.
 - Tinting varies by button state.
@@ -80,11 +80,11 @@ Notes:
 
 ![](img/button-middle.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Multiplicative | Top | - |
+| Todas | ![No][false] | ![No][false] | Multiplicativo | Superior | - |
 
-Notes:
+Notas:
 
 - This element is stretched to fit the needed width.
 - Use same height as other button pieces.
@@ -96,11 +96,11 @@ Notes:
 
 ![](img/button-right.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Multiplicative | Top Left | - |
+| Todas | ![No][false] | ![No][false] | Multiplicativo | Esquina Superior Izquierda | - |
 
-Notes:
+Notas:
 
 - Use same height as other button pieces.
 - Tinting varies by button state.
@@ -111,11 +111,11 @@ Notes:
 
 ![](img/cursor.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - By default, this element will rotate and expand (on click).
 - [skin.ini](/wiki/Skinning/skin.ini) commands:
@@ -128,11 +128,11 @@ Notes:
 
 ![](img/cursormiddle.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - This element does not rotate nor expand (on click).
 - This element is above the `cursor.png` element.
@@ -143,11 +143,11 @@ Notes:
 
 ![](img/cursor-smoke.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - This element is used when the player presses the smoke key.
   - By default, the smoke key is bound to `C`.
@@ -158,11 +158,11 @@ Notes:
 
 ![](img/cursortrail.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - This element is underneath the `cursor.png` element
 - If `cursormiddle.png` is present, a longer trail is used.
@@ -176,11 +176,11 @@ Notes:
 
 ![](img/cursor-ripple.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Additive | Centre | - |
+| Todas | ![No][false] | unknown | Aditivo | Centro | - |
 
-Notes:
+Notas:
 
 - This element is used when the player presses the Left-Click key or Right-Click key on their keyboard or mouse.
   - By default, the Left-Click key is bound to `Z`.
@@ -196,9 +196,9 @@ Notes:
 
 ![](img/selection-mod-autoplay.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
 ---
 
@@ -206,11 +206,11 @@ Notes:
 
 ![](img/selection-mod-cinema.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - Click the Auto mod icon to see this icon.
 
@@ -220,9 +220,9 @@ Notes:
 
 ![](img/selection-mod-doubletime.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
 ---
 
@@ -230,9 +230,9 @@ Notes:
 
 ![](img/selection-mod-easy.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
 ---
 
@@ -240,11 +240,11 @@ Notes:
 
 ![](img/selection-mod-fadein.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 
@@ -254,9 +254,9 @@ Notes:
 
 ![](img/selection-mod-flashlight.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
 ---
 
@@ -264,9 +264,9 @@ Notes:
 
 ![](img/selection-mod-halftime.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
 ---
 
@@ -274,9 +274,9 @@ Notes:
 
 ![](img/selection-mod-hardrock.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
 ---
 
@@ -284,11 +284,11 @@ Notes:
 
 ![](img/selection-mod-hidden.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - For [osu!mania](/wiki/Game_mode/osu!mania), click the Fade In mod icon to see this icon.
 
@@ -298,11 +298,11 @@ Notes:
 
 ![](img/selection-mod-key1.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
@@ -313,11 +313,11 @@ Notes:
 
 ![](img/selection-mod-key2.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
@@ -328,11 +328,11 @@ Notes:
 
 ![](img/selection-mod-key3.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
@@ -343,11 +343,11 @@ Notes:
 
 ![](img/selection-mod-key4.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 
@@ -357,11 +357,11 @@ Notes:
 
 ![](img/selection-mod-key5.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
@@ -372,11 +372,11 @@ Notes:
 
 ![](img/selection-mod-key6.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
@@ -387,11 +387,11 @@ Notes:
 
 ![](img/selection-mod-key7.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
@@ -402,11 +402,11 @@ Notes:
 
 ![](img/selection-mod-key8.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
@@ -417,11 +417,11 @@ Notes:
 
 ![](img/selection-mod-key9.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
@@ -432,11 +432,11 @@ Notes:
 
 ![](img/selection-mod-keycoop.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 
@@ -446,11 +446,11 @@ Notes:
 
 ![](img/selection-mod-mirror.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 
@@ -460,11 +460,11 @@ Notes:
 
 ![](img/selection-mod-nightcore.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - Click the Double Time mod icon to see this icon.
 
@@ -474,9 +474,9 @@ Notes:
 
 ![](img/selection-mod-nofail.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
 ---
 
@@ -484,11 +484,11 @@ Notes:
 
 ![](img/selection-mod-perfect.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - Click the Sudden Death mod icon to see this icon.
 
@@ -498,11 +498,11 @@ Notes:
 
 ![](img/selection-mod-random.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 
@@ -512,11 +512,11 @@ Notes:
 
 ![](img/selection-mod-relax.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!](/wiki/Game_mode/osu!), [osu!taiko](/wiki/Game_mode/osu!taiko), and [osu!catch](/wiki/Game_mode/osu!catch)-specific mod.
 
@@ -526,11 +526,11 @@ Notes:
 
 ![](img/selection-mod-relax2.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!](/wiki/Game_mode/osu!)-specific mod.
 - This mod will move the cursor for the player while the player just needs to tap or click.
@@ -541,9 +541,9 @@ Notes:
 
 ![](img/selection-mod-scorev2.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
 ---
 
@@ -551,11 +551,11 @@ Notes:
 
 ![](img/selection-mod-spunout.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
-Notes:
+Notas:
 
 - This element is [osu!](/wiki/Game_mode/osu!)-specific mod.
 
@@ -565,9 +565,9 @@ Notes:
 
 ![](img/selection-mod-suddendeath.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
 ---
 
@@ -575,9 +575,9 @@ Notes:
 
 ![](img/selection-mod-target.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
 - This mod is available in the cuttingedge stream only.
 - This element is an [osu!](/wiki/Game_mode/osu!)-specific mod.
@@ -586,9 +586,9 @@ Notes:
 
 `selection-mod-freemodallowed.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
 - This mod does not have an image in-game.
 - This mod does not show up in the mod selection or leaderboards.
@@ -599,9 +599,9 @@ Notes:
 
 `selection-mod-touchdevice.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 64x64 |
 
 - This mod does not have an image in-game.
 - This mod does not show up in the mod selection.
@@ -618,11 +618,11 @@ Notes:
 
 ![](img/options-offset-tick.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Multiplicative | Centre | - |
+| Todas | ![No][false] | ![No][false] | Multiplicativo | Centro | - |
 
-Notes:
+Notas:
 
 - Tinting varies by tick state.
 
@@ -632,11 +632,11 @@ Notes:
 
 ![](img/play-skip.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![Yes][true] | ![Yes][true] | Multiplicative | Bottom Right | - |
+| Todas | ![Yes][true] | ![Yes][true] | Multiplicativo | Bottom Right | - |
 
-Notes:
+Notas:
 
 - Animation name: `play-skip-{n}.png`
 
@@ -646,11 +646,11 @@ Notes:
 
 ![](img/play-unranked.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | Centro | - |
 
-Notes:
+Notas:
 
 - This element is shown when using mods that disable score submission.
 
@@ -660,11 +660,11 @@ Notes:
 
 ![](img/play-warningarrow.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] (see notes) | Multiplicative | Centre | - |
+| Todas | ![No][false] | ![No][false] (see notes) | Multiplicativo | Centro | - |
 
-Notes:
+Notas:
 
 - Beatmap skinnable status is suspected to be a bug.
 - Tinting varies by version.
@@ -678,11 +678,11 @@ Notes:
 
 `arrow-pause.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] (see notes) | Normal | Centre | - |
+| Todas | ![No][false] | ![No][false] (see notes) | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Beatmap skinnable status is suspected to be a bug.
 - If skinned, this element overrides `play-warningarrow.png`.
@@ -693,11 +693,11 @@ Notes:
 
 `arrow-warning.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] (see notes) | Normal | Centre | - |
+| Todas | ![No][false] | ![No][false] (see notes) | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Beatmap skinnable status is suspected to be a bug.
 - If skinned, this element overrides `play-warningarrow.png`.
@@ -710,14 +710,14 @@ Notes:
 
 ![](img/masking-border.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Right | max height: 768px |
+| Todas | ![No][false] | ![No][false] | Normal | Right | max height: 768px |
 
-Notes:
+Notas:
 
 - Used when playing with 4:3 storyboards on widescreen.
-- In the [.osu](/wiki/Client/File_formats/Osu_(file_format)) file, set `WidescreenStoryboard` to `0` for this to appear.
+- While beatmapping, disable `Widescreen support` in [song setup](/wiki/Client/Beatmap_editor/Song_Setup) for this to appear.
 - This element is stretched to fit the needed area.
 - The right pillar is flipped horizontally.
 
@@ -727,11 +727,11 @@ Notes:
 
 ![](img/multi-skipped.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Bottom Right | 60x30 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Bottom Right | 60x30 |
 
-Notes:
+Notas:
 
 - This element is used in multi games, seen next to the player's score (on the sides) when the player votes to skip the intro of a beatmap.
 
@@ -741,11 +741,11 @@ Notes:
 
 ![](img/section-fail.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - This element is seen when the player has a low amount of HP, about less than 50%, during a long enough break.
 
@@ -755,11 +755,11 @@ Notes:
 
 ![](img/section-pass.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - This element is seen when the player has a high amount of HP, about more than 50%, during a long enough break.
 
@@ -769,12 +769,12 @@ Notes:
 
 ![](img/count1.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1.0 | ![No][false] | ![Yes][true] | Normal | Centre | - |
-| 2.0+ | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| 1.0 | ![No][false] | ![Yes][true] | Normal | Centro | - |
+| 2.0+ | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - This should either say "1" or "3".
 
@@ -784,12 +784,12 @@ Notes:
 
 ![](img/count2.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 1.0 | ![No][false] | ![Yes][true] | Normal | Right | - |
-| 2.0+ | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| 2.0+ | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - This should say "2".
 
@@ -799,12 +799,12 @@ Notes:
 
 ![](img/count3.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 1.0 | ![No][false] | ![Yes][true] | Normal | Left | - |
-| 2.0+ | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| 2.0+ | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - This should either say "3" or "1".
 
@@ -814,11 +814,11 @@ Notes:
 
 ![](img/go.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - This should say "Go!".
 
@@ -828,11 +828,11 @@ Notes:
 
 ![](img/ready.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - This should say "Are You Ready?" or "Ready?".
 
@@ -846,11 +846,11 @@ Notes:
 
 ![](/wiki/shared/judgement/osu!/hit0.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centre | - |
+| Todas | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Animation name: `hit0-{n}.png`
 - Animation rate is fixed to 60 FPS.
@@ -864,11 +864,11 @@ Notes:
 
 ![](/wiki/shared/judgement/osu!/hit50.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centre | - |
+| Todas | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Animation name: `hit50-{n}.png`
 - Animation rate is fixed to 60 FPS.
@@ -882,11 +882,11 @@ Notes:
 
 ![](/wiki/shared/judgement/osu!/hit100.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centre | - |
+| Todas | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Animation name: `hit100-{n}.png`
 - Animation rate is fixed to 60 FPS.
@@ -900,11 +900,11 @@ Notes:
 
 ![](/wiki/shared/judgement/osu!/hit100k.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centre | - |
+| Todas | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Animation name: `hit100k-{n}.png`
 - Animation rate is fixed to 60 FPS.
@@ -918,11 +918,11 @@ Notes:
 
 ![](/wiki/shared/judgement/osu!/hit300.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centre | - |
+| Todas | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Animation name: `hit300-{n}.png`
 - Animation rate is fixed to 60 FPS.
@@ -936,11 +936,11 @@ Notes:
 
 ![](/wiki/shared/judgement/osu!/hit300g.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centre | - |
+| Todas | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Animation name: `hit300g-{n}.png`
 - Animation rate is fixed to 60 FPS.
@@ -954,11 +954,11 @@ Notes:
 
 ![](/wiki/shared/judgement/osu!/hit300k.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centre | - |
+| Todas | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Animation name: `hit300k-{n}.png`
 - Animation rate is fixed to 60 FPS.
@@ -973,11 +973,11 @@ Notes:
 
 ![](img/inputoverlay-background.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Top Right | 193x55 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Esquinoa Superior Derecha | 193x55 |
 
-Notes:
+Notas:
 
 - This element is positioned at 320px height.
 - Since the image is rotated, the origin on the image itself is Top Left.
@@ -991,15 +991,15 @@ Notes:
 
 ![](img/inputoverlay-key.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | Centre | 43x46 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | Centro | 43x46 |
 
-Notes:
+Notas:
 
 - This element is used in [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch).
 - Positioning varies for each key:
-  - 24px away from the screen border
+  - 24px away from screenborder
   - K1/L: at 350px height
   - K2/R: at 398px height
   - M1/D: at 446px height
@@ -1015,11 +1015,11 @@ Notes:
 
 `pause-overlay.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 1366x768 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 1366x768 |
 
-Notes:
+Notas:
 
 - When the game is paused, the playfield will be dimmed and this file will overlay on top of it.
 - This element will not stretch to fit.
@@ -1032,11 +1032,11 @@ Notes:
 
 `fail-background.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | 1366x768 |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | 1366x768 |
 
-Notes:
+Notas:
 
 - When the player has failed, the playfield will be dimmed and this file will overlay on top of it.
 - This element will stretch to fit.
@@ -1049,11 +1049,11 @@ Notes:
 
 ![](img/pause-back.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - This element is positioned at 576px height.
 - This element is seen in the fail and pause screens.
@@ -1064,9 +1064,9 @@ Notes:
 
 ![](img/pause-continue.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
 - This element is positioned at 224px height.
 - This element is seen in the pause screen.
@@ -1077,11 +1077,11 @@ Notes:
 
 ![](img/pause-replay.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Right | - |
+| Todas | ![No][false] | ![No][false] | Normal | Right | - |
 
-Notes:
+Notas:
 
 - This element appears on the ranking screen (after finishing a map or viewing a score).
 - This element is positioned at 672px height or at 576px height, if `pause-retry.png` is not available.
@@ -1092,11 +1092,11 @@ Notes:
 
 ![](img/pause-retry.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | (Varies) | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | (Varies) | - |
 
-Notes:
+Notas:
 
 - Positioning varies:
   - pause or fail screen:
@@ -1111,11 +1111,11 @@ Notes:
 
 ![](img/scorebar-bg.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Top Left | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Esquina Superior Izquierda | - |
 
-Notes:
+Notas:
 
 - This element has no size restrictions.
 - When used in [osu!mania](/wiki/Game_mode/osu!mania), this element is rotated 90 degrees anti-clockwise and is placed at the bottom right of stage.
@@ -1126,11 +1126,11 @@ Notes:
 
 ![](img/scorebar-colour.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![Yes][true] | ![Yes][true] | (Varies) | Top Left | max height: 120px |
+| Todas | ![Yes][true] | ![Yes][true] | (Varies) | Esquina Superior Izquierda | max height: 120px |
 
-Notes:
+Notas:
 
 - Animation name: `scorebar-colour-{n}.png`.
 - Blend mode varies:
@@ -1149,11 +1149,11 @@ Notes:
 
 ![](img/scorebar-ki.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - `scorebar-marker.png` has higher priority.
 - This element represents the "passing" zone.
@@ -1167,11 +1167,11 @@ Notes:
 
 ![](img/scorebar-kidanger.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - `scorebar-marker.png` has higher priority.
 - this element represents the "warning" zone
@@ -1185,11 +1185,11 @@ Notes:
 
 ![](img/scorebar-kidanger2.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - `scorebar-marker.png` has higher priority.
 - This element represents the "critical" zone.
@@ -1203,11 +1203,11 @@ Notes:
 
 ![](img/scorebar-marker.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Additive | Centre | - |
+| Todas | ![No][false] | ![Yes][true] | Aditivo | Centro | - |
 
-Notes:
+Notas:
 
 - If skinned, this element overrides the `scorebar-ki.png`, `scorebar-kidanger.png`, and `scorebar-kidanger2.png` elements.
 - The marker fades out if the player reaches the critical zone.
@@ -1220,11 +1220,11 @@ Notes:
 
 ![](img/score-0.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
+| Todas | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
 
-Notes:
+Notas:
 
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
@@ -1239,11 +1239,11 @@ Notes:
 
 ![](img/score-1.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
+| Todas | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
 
-Notes:
+Notas:
 
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
@@ -1258,11 +1258,11 @@ Notes:
 
 ![](img/score-2.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
+| Todas | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
 
-Notes:
+Notas:
 
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
@@ -1277,11 +1277,11 @@ Notes:
 
 ![](img/score-3.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
+| Todas | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
 
-Notes:
+Notas:
 
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
@@ -1296,11 +1296,11 @@ Notes:
 
 ![](img/score-4.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
+| Todas | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
 
-Notes:
+Notas:
 
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
@@ -1315,11 +1315,11 @@ Notes:
 
 ![](img/score-5.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
+| Todas | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
 
-Notes:
+Notas:
 
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
@@ -1334,11 +1334,11 @@ Notes:
 
 ![](img/score-6.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
+| Todas | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
 
-Notes:
+Notas:
 
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
@@ -1353,11 +1353,11 @@ Notes:
 
 ![](img/score-7.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
+| Todas | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
 
-Notes:
+Notas:
 
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
@@ -1372,11 +1372,11 @@ Notes:
 
 ![](img/score-8.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
+| Todas | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
 
-Notes:
+Notas:
 
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
@@ -1391,11 +1391,11 @@ Notes:
 
 ![](img/score-9.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
+| Todas | ![No][false] | ![Yes][true] | (Varies) | (Varies) | - |
 
-Notes:
+Notas:
 
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
@@ -1410,11 +1410,11 @@ Notes:
 
 ![](img/score-comma.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | (Varies) | 5x14 |
+| Todas | ![No][false] | ![Yes][true] | Normal | (Varies) | 5x14 |
 
-Notes:
+Notas:
 
 - By default, this is also used for the combo numbers.
 - This element is for the accuracy.
@@ -1426,11 +1426,11 @@ Notes:
 
 ![](img/score-dot.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | (Varies) | 5x14 |
+| Todas | ![No][false] | ![Yes][true] | Normal | (Varies) | 5x14 |
 
-Notes:
+Notas:
 
 - By default, this is also used for the combo numbers.
 - This element is for the accuracy.
@@ -1442,11 +1442,11 @@ Notes:
 
 ![](img/score-percent.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | (Varies) | 12x14 |
+| Todas | ![No][false] | ![Yes][true] | Normal | (Varies) | 12x14 |
 
-Notes:
+Notas:
 
 - This element is for the accuracy.
 
@@ -1456,11 +1456,11 @@ Notes:
 
 ![](img/score-x.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | (Varies) | (Varies) | 10x14 |
+| Todas | ![No][false] | ![Yes][true] | (Varies) | (Varies) | 10x14 |
 
-Notes:
+Notas:
 
 - This element is for the combo, only used in [osu!](/wiki/Game_mode/osu!).
 - Blend mode varies:
@@ -1473,14 +1473,14 @@ Notes:
 
 ![](img/ranking-XH.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | - |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Positioning varies:
-  - 192px away from the right screen border
+  - 192px away from right screenborder
   - v1.0: at 272px height
   - v2.0+: at 320px height
 
@@ -1490,11 +1490,11 @@ Notes:
 
 ![](img/ranking-XH-small.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
+| Todas | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
 
-Notes:
+Notas:
 
 - Origin varies:
   - Break: Centre
@@ -1507,14 +1507,14 @@ Notes:
 
 ![](img/ranking-X.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | - |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Positioning varies:
-  - 192px away from the right screen border
+  - 192px away from right screenborder
   - v1.0: at 272px height
   - v2.0+: at 320px height
 
@@ -1524,11 +1524,11 @@ Notes:
 
 ![](img/ranking-X-small.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
+| Todas | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
 
-Notes:
+Notas:
 
 - Origin varies:
   - Break: Centre
@@ -1541,11 +1541,11 @@ Notes:
 
 ![](img/ranking-SH.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | - |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Positioning varies:
   - 192px away from right screen border
@@ -1558,11 +1558,11 @@ Notes:
 
 ![](img/ranking-SH-small.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
+| Todas | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
 
-Notes:
+Notas:
 
 - Origin varies:
   - Break: Centre
@@ -1575,11 +1575,11 @@ Notes:
 
 ![](img/ranking-S.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | - |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Positioning varies:
   - 192px away from right screen border
@@ -1592,11 +1592,11 @@ Notes:
 
 ![](img/ranking-S-small.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
+| Todas | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
 
-Notes:
+Notas:
 
 - Origin varies:
   - Break: Centre
@@ -1609,11 +1609,11 @@ Notes:
 
 ![](img/ranking-A.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | - |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Positioning varies:
   - 192px away from right screen border
@@ -1626,11 +1626,11 @@ Notes:
 
 ![](img/ranking-A-small.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
+| Todas | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
 
-Notes:
+Notas:
 
 - Origin varies:
   - Break: Centre
@@ -1643,11 +1643,11 @@ Notes:
 
 ![](img/ranking-B.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | - |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Positioning varies:
   - 192px away from right screen border
@@ -1660,11 +1660,11 @@ Notes:
 
 ![](img/ranking-B-small.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
+| Todas | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
 
-Notes:
+Notas:
 
 - Origin varies:
   - Break: Centre
@@ -1677,11 +1677,11 @@ Notes:
 
 ![](img/ranking-C.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | - |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Positioning varies:
   - 192px away from right screen border
@@ -1694,11 +1694,11 @@ Notes:
 
 ![](img/ranking-C-small.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
+| Todas | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
 
-Notes:
+Notas:
 
 - Origin varies:
   - Break: Centre
@@ -1711,11 +1711,11 @@ Notes:
 
 ![](img/ranking-D.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | - |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Positioning varies:
   - 192px away from right screen border
@@ -1728,11 +1728,11 @@ Notes:
 
 ![](img/ranking-D-small.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
+| Todas | ![No][false] | ![Yes][true] | Normal | (Varies) | 34x40 |
 
-Notes:
+Notas:
 
 - Origin varies:
   - Break: Centre
@@ -1745,11 +1745,11 @@ Notes:
 
 ![](img/ranking-accuracy.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] (see notes) | ![No][false] | Normal | Top Left | - |
+| Todas | ![No][false] (see notes) | ![No][false] | Normal | Esquina Superior Izquierda | - |
 
-Notes:
+Notas:
 
 - Can be animated, but only the zeroth frame will be used.
   - Animation name: `ranking-accuracy-{n}.png`
@@ -1763,12 +1763,12 @@ Notes:
 
 ![](img/ranking-graph.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1.0 | ![No][false] | ![No][false] | Normal | Top Left | min: 308x156 |
-| 2.0+ | ![No][false] | ![No][false] | Normal | Top Left | min: 308x148 |
+| 1.0 | ![No][false] | ![No][false] | Normal | Esquina Superior Izquierda | min: 308x156 |
+| 2.0+ | ![No][false] | ![No][false] | Normal | Esquina Superior Izquierda | min: 308x148 |
 
-Notes:
+Notas:
 
 - Positioning varies:
   - v1.0: (256,576)
@@ -1783,11 +1783,11 @@ Notes:
 
 ![](img/ranking-maxcombo.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] (see notes) | ![No][false] | Normal | Top Left | - |
+| Todas | ![No][false] (see notes) | ![No][false] | Normal | Esquina Superior Izquierda | - |
 
-Notes:
+Notas:
 
 - Can be animated, but only the zeroth frame will be used.
   - Animation name: `ranking-maxcombo-{n}.png`
@@ -1801,12 +1801,12 @@ Notes:
 
 ![](img/ranking-panel.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1.0 | ![No][false] | ![No][false] | Normal | Top Left | max height: 694px |
-| 2.0+ | ![No][false] | ![No][false] | Normal | Top Left | max height: 666px |
+| 1.0 | ![No][false] | ![No][false] | Normal | Esquina Superior Izquierda | max height: 694px |
+| 2.0+ | ![No][false] | ![No][false] | Normal | Esquina Superior Izquierda | max height: 666px |
 
-Notes:
+Notas:
 
 - Positioning varies:
   - v1.0: (0,74)
@@ -1818,11 +1818,11 @@ Notes:
 
 ![](img/ranking-perfect.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] (see notes) | ![No][false] | Normal | Centre | - |
+| Todas | ![No][false] (see notes) | ![No][false] | Normal | Centro | - |
 
-Notes:
+Notas:
 
 - Can be animated, but only the zeroth frame will be used.
   - Animation name: `ranking-perfect-{n}.png`
@@ -1836,11 +1836,11 @@ Notes:
 
 ![](img/ranking-title.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Top Right | - |
+| Todas | ![No][false] | ![No][false] | Normal | Esquinoa Superior Derecha | - |
 
-Notes:
+Notas:
 
 - x-position 32px away from the right side
 
@@ -1848,11 +1848,11 @@ Notes:
 
 `ranking-replay.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 1.0 | ![No][false] | ![No][false] | Normal | Right | - |
 
-Notes:
+Notas:
 
 - Position varies:
   - at 672px height.
@@ -1862,11 +1862,11 @@ Notes:
 
 `ranking-retry.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Right | - |
+| Todas | ![No][false] | ![No][false] | Normal | Right | - |
 
-Notes:
+Notas:
 
 - Positioned at 576px height.
 - If skinned, this element overrides `pause-retry.png`.
@@ -1877,11 +1877,11 @@ Notes:
 
 ![](img/ranking-winner.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Top Left | 200x214 |
+| Todas | ![No][false] | ![No][false] | Normal | Esquina Superior Izquierda | 200x214 |
 
-Notes:
+Notas:
 
 - This element is used in [multi](/wiki/Client/Interface/Multiplayer) only.
 
@@ -1889,11 +1889,11 @@ Notes:
 
 `scoreentry-0.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | (varies) | 11x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | (varies) | 11x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards and input overlay.
   - For input overlay, the initial button labels are not skinnable.
@@ -1911,11 +1911,11 @@ Notes:
 
 `scoreentry-1.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | (varies) | 11x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | (varies) | 11x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards and input overlay.
   - For input overlay, the initial button labels are not skinnable.
@@ -1933,11 +1933,11 @@ Notes:
 
 `scoreentry-2.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | (varies) | 11x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | (varies) | 11x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards and input overlay.
   - For input overlay, the initial button labels are not skinnable.
@@ -1955,11 +1955,11 @@ Notes:
 
 `scoreentry-3.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | (varies) | 11x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | (varies) | 11x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards and input overlay.
   - For input overlay, the initial button labels are not skinnable.
@@ -1977,11 +1977,11 @@ Notes:
 
 `scoreentry-4.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | (varies) | 11x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | (varies) | 11x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards and input overlay.
   - For input overlay, the initial button labels are not skinnable.
@@ -1999,11 +1999,11 @@ Notes:
 
 `scoreentry-5.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | (varies) | 11x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | (varies) | 11x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards and input overlay.
   - For input overlay, the initial button labels are not skinnable.
@@ -2021,11 +2021,11 @@ Notes:
 
 `scoreentry-6.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | (varies) | 11x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | (varies) | 11x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards and input overlay.
   - For input overlay, the initial button labels are not skinnable.
@@ -2043,11 +2043,11 @@ Notes:
 
 `scoreentry-7.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | (varies) | 11x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | (varies) | 11x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards and input overlay.
   - For input overlay, the initial button labels are not skinnable.
@@ -2065,11 +2065,11 @@ Notes:
 
 `scoreentry-8.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | (varies) | 11x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | (varies) | 11x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards and input overlay.
   - For input overlay, the initial button labels are not skinnable.
@@ -2087,11 +2087,11 @@ Notes:
 
 `scoreentry-9.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | (varies) | 11x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | (varies) | 11x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards and input overlay.
   - For input overlay, the initial button labels are not skinnable.
@@ -2109,11 +2109,11 @@ Notes:
 
 `scoreentry-comma.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | (varies) | 5x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | (varies) | 5x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards.
 - This element is used as the decimal separator.
@@ -2129,11 +2129,11 @@ Notes:
 
 `scoreentry-dot.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | Top Left | 5x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | Esquina Superior Izquierda | 5x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards.
 - This element is used as the decimal separator.
@@ -2144,11 +2144,11 @@ Notes:
 
 `scoreentry-percent.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | Top Left | 12x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | Esquina Superior Izquierda | 12x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards.
 - This element is used in [Multi](/wiki/Client/Interface/Multiplayer) games when the win condition is set to Accuracy.
@@ -2158,11 +2158,11 @@ Notes:
 
 `scoreentry-x.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | Top Right | 10x14 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | Esquinoa Superior Derecha | 10x14 |
 
-Notes:
+Notas:
 
 - This element is used for the in-game leaderboards.
 - This element is used as the multiplier symbol.
@@ -2172,11 +2172,11 @@ Notes:
 
 `menu-back.png`
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![Yes][true] | ![No][false] | Normal | Bottom Left | 200x214 |
+| Todas | ![Yes][true] | ![No][false] | Normal | Bottom Left | 200x214 |
 
-Notes:
+Notas:
 
 - Animation name: `menu-back-{n}.png`.
 - The native back button is not skinnable.
@@ -2188,11 +2188,11 @@ Notes:
 
 ![](img/menu-button-background.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | Bottom Left | min: 690x85 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | Bottom Left | min: 690x85 |
 
-Notes:
+Notas:
 
 - Skin versions 2.2+ can support thumbnails (must be enabled in the [options](/wiki/Client/Options)) for song selection
   - Thumbnails get positioned 9px away from the left image border
@@ -2210,12 +2210,12 @@ Notes:
 
 ![](img/selection-mode.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1.0 | ![No][false] | ![No][false] | Normal | Top Left | 92x87 |
+| 1.0 | ![No][false] | ![No][false] | Normal | Esquina Superior Izquierda | 92x87 |
 | 2.0+ | ![No][false] | ![No][false] | Normal | Bottom Left | 92x90 |
 
-Notes:
+Notas:
 
 - In v1.0, positioning is 87px away from the bottom.
 
@@ -2225,12 +2225,12 @@ Notes:
 
 ![](img/selection-mode-over.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1.0 | ![No][false] | ![No][false] | Normal | Top Left | 92x87 |
+| 1.0 | ![No][false] | ![No][false] | Normal | Esquina Superior Izquierda | 92x87 |
 | 2.0+ | ![No][false] | ![No][false] | Normal | Bottom Left | 92x90 |
 
-Notes:
+Notas:
 
 - Hover over `selection-mode.png` to see.
 - In v1.0, positioning is 87px away from the bottom.
@@ -2241,12 +2241,12 @@ Notes:
 
 ![](img/selection-mods.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1.0 | ![No][false] | ![No][false] | Normal | Top Left | 77x87 |
+| 1.0 | ![No][false] | ![No][false] | Normal | Esquina Superior Izquierda | 77x87 |
 | 2.0+ | ![No][false] | ![No][false] | Normal | Bottom Left | 77x90 |
 
-Notes:
+Notas:
 
 - In v1.0, positioning is 87px away from the bottom.
 
@@ -2256,12 +2256,12 @@ Notes:
 
 ![](img/selection-mods-over.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1.0 | ![No][false] | ![No][false] | Normal | Top Left | 77x87 |
+| 1.0 | ![No][false] | ![No][false] | Normal | Esquina Superior Izquierda | 77x87 |
 | 2.0+ | ![No][false] | ![No][false] | Normal | Bottom Left | 77x90 |
 
-Notes:
+Notas:
 
 - Hover over `selection-mods.png` to see.
 - In v1.0, positioning is 87px away from the bottom.
@@ -2272,12 +2272,12 @@ Notes:
 
 ![](img/selection-random.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1.0 | ![No][false] | ![No][false] | Normal | Top Left | 77x87 |
+| 1.0 | ![No][false] | ![No][false] | Normal | Esquina Superior Izquierda | 77x87 |
 | 2.0+ | ![No][false] | ![No][false] | Normal | Bottom Left | 77x90 |
 
-Notes:
+Notas:
 
 - In v1.0, positioning is 87px away from the bottom.
 
@@ -2287,12 +2287,12 @@ Notes:
 
 ![](img/selection-random-over.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1.0 | ![No][false] | ![No][false] | Normal | Top Left | 77x87 |
+| 1.0 | ![No][false] | ![No][false] | Normal | Esquina Superior Izquierda | 77x87 |
 | 2.0+ | ![No][false] | ![No][false] | Normal | Bottom Left | 77x90 |
 
-Notes:
+Notas:
 
 - Hover over `selection-random.png` to see.
 - In v1.0, positioning is 87px away from the bottom.
@@ -2303,12 +2303,12 @@ Notes:
 
 ![](img/selection-options.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1.0 | ![No][false] | ![No][false] | Normal | Top Left | 77x87 |
+| 1.0 | ![No][false] | ![No][false] | Normal | Esquina Superior Izquierda | 77x87 |
 | 2.0+ | ![No][false] | ![No][false] | Normal | Bottom Left | 77x90 |
 
-Notes:
+Notas:
 
 - In v1.0, positioning is 87px away from the bottom.
 
@@ -2318,12 +2318,12 @@ Notes:
 
 ![](img/selection-options-over.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1.0 | ![No][false] | ![No][false] | Normal | Top Left | 77x87 |
+| 1.0 | ![No][false] | ![No][false] | Normal | Esquina Superior Izquierda | 77x87 |
 | 2.0+ | ![No][false] | ![No][false] | Normal | Bottom Left | 77x90 |
 
-Notes:
+Notas:
 
 - Hover over `selection-options.png` to see.
 - In v1.0, positioning is 87px away from the bottom.
@@ -2334,11 +2334,11 @@ Notes:
 
 ![](img/selection-tab.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Multiplicative | Top Left | 142x24 |
+| Todas | ![No][false] | ![Yes][true] | Multiplicativo | Esquina Superior Izquierda | 142x24 |
 
-Notes:
+Notas:
 
 - Depending on the client's window size, 4 to 5 tabs will be displayed.
 
@@ -2348,11 +2348,11 @@ Notes:
 
 ![](img/star.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Multiplicative | Centre | 50x50 |
+| Todas | ![No][false] | ![No][false] | Multiplicativo | Centro | 50x50 |
 
-Notes:
+Notas:
 
 - This element is used for difficulty star ratings (seen in song selection).
   - v2.2+ will scale down the last star, if necessary
@@ -2365,11 +2365,11 @@ Notes:
 
 ![](img/star2.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![Yes][true] | Additive | Centre | 24x24 |
+| Todas | ![No][false] | ![Yes][true] | Aditivo | Centro | 24x24 |
 
-Notes:
+Notas:
 
 - This element is used for song selection (the stars that fly from right to left), cursor, kiai time, combobursts.
 
@@ -2379,11 +2379,11 @@ Notes:
 
 ![](img/mode-osu.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Additive | Centre | 256x256 |
+| Todas | ![No][false] | ![No][false] | Aditivo | Centro | 256x256 |
 
-Notes:
+Notas:
 
 - This element flashes in the centre of the song select screen in respect of the song's BPM.
 - Select [osu!](/wiki/Game_mode/osu!) for this to be visible.
@@ -2394,11 +2394,11 @@ Notes:
 
 ![](img/mode-taiko.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Additive | Centre | 256x256 |
+| Todas | ![No][false] | ![No][false] | Aditivo | Centro | 256x256 |
 
-Notes:
+Notas:
 
 - This element flashes in the centre of the song select screen in respect of the song's BPM.
 - Select [osu!taiko](/wiki/Game_mode/osu!taiko) for this to be visible.
@@ -2409,11 +2409,11 @@ Notes:
 
 ![](img/mode-fruits.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Additive | Centre | 256x256 |
+| Todas | ![No][false] | ![No][false] | Aditivo | Centro | 256x256 |
 
-Notes:
+Notas:
 
 - This element flashes in the centre of the song select screen in respect of the song's BPM.
 - Select [osu!catch](/wiki/Game_mode/osu!catch) for this to be visible.
@@ -2424,11 +2424,11 @@ Notes:
 
 ![](img/mode-mania.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Additive | Centre | 256x256 |
+| Todas | ![No][false] | ![No][false] | Aditivo | Centro | 256x256 |
 
-Notes:
+Notas:
 
 - This element flashes in the centre of the song select screen in respect of the song's BPM.
 - Select [osu!mania](/wiki/Game_mode/osu!mania) for this to be visible.
@@ -2439,11 +2439,11 @@ Notes:
 
 ![](img/mode-osu-med.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | 128x128 |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | 128x128 |
 
-Notes:
+Notas:
 
 - This element is used inside the game mode selection dropdown menu.
 - Click on `selection-mode.png` to see.
@@ -2454,11 +2454,11 @@ Notes:
 
 ![](img/mode-taiko-med.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | 128x128 |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | 128x128 |
 
-Notes:
+Notas:
 
 - This element is used inside the game mode selection dropdown menu.
 - Click on `selection-mode.png` to see.
@@ -2469,11 +2469,11 @@ Notes:
 
 ![](img/mode-fruits-med.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | 128x128 |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | 128x128 |
 
-Notes:
+Notas:
 
 - This element is used inside the game mode selection dropdown menu.
 - Click on `selection-mode.png` to see.
@@ -2484,11 +2484,11 @@ Notes:
 
 ![](img/mode-mania-med.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Normal | Centre | 128x128 |
+| Todas | ![No][false] | ![No][false] | Normal | Centro | 128x128 |
 
-Notes:
+Notas:
 
 - This element is used inside the game mode selection dropdown menu.
 - Click on `selection-mode.png` to see.
@@ -2499,11 +2499,11 @@ Notes:
 
 ![](img/mode-osu-small.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Additive | Centre | 32x32 |
+| Todas | ![No][false] | ![No][false] | Aditivo | Centro | 32x32 |
 
-Notes:
+Notas:
 
 - This element is on top of the `selection-mode.png` element.
 - Select [osu!](/wiki/Game_mode/osu!) for this to be visible.
@@ -2515,11 +2515,11 @@ Notes:
 
 ![](img/mode-taiko-small.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Additive | Centre | 32x32 |
+| Todas | ![No][false] | ![No][false] | Aditivo | Centro | 32x32 |
 
-Notes:
+Notas:
 
 - This element is on top of the `selection-mode.png` element.
 - Select [osu!taiko](/wiki/Game_mode/osu!taiko) for this to be visible.
@@ -2531,11 +2531,11 @@ Notes:
 
 ![](img/mode-fruits-small.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Additive | Centre | 32x32 |
+| Todas | ![No][false] | ![No][false] | Aditivo | Centro | 32x32 |
 
-Notes:
+Notas:
 
 - This element is on top of the `selection-mode.png` element.
 - Select [osu!catch](/wiki/Game_mode/osu!catch) for this to be visible.
@@ -2547,11 +2547,11 @@ Notes:
 
 ![](img/mode-mania-small.png)
 
-| skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| Versiones | Animable | Skin de mapa | Modo de fusión | Origen | Tamaño sugerido (SD) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | ![No][false] | Additive | Centre | 32x32 |
+| Todas | ![No][false] | ![No][false] | Aditivo | Centro | 32x32 |
 
-Notes:
+Notas:
 
 - This element is on top of the `selection-mode.png` element.
 - Select [osu!mania](/wiki/Game_mode/osu!mania) for this to be visible.
