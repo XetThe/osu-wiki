@@ -57,7 +57,7 @@ Notes:
 
 - If not skinned, the current game mode's small icon will be used instead.
 - Must be enabled in the [options](/wiki/Client/Options) to see.
-  - This option may forcibly be enabled during the holidays (Christmas and Haloween).
+  - This option may forcibly be enabled during the holidays (Christmas and Halloween).
 
 ## Button
 
@@ -178,7 +178,7 @@ Notes:
 
 | skin.ini version | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![No][false] | unknown | Additive | Centre | - |
+| All | ![No][false] | ![Yes][true] | Additive | Centre | - |
 
 Notes:
 
