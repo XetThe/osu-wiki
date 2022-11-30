@@ -10,7 +10,7 @@ El skinning es una de las funciones clave de osu!. Le permite a los jugadores de
 
 *Pagina principal: [Lista de Sets de Skinning](/wiki/Ranking_Criteria/Skin_Set_List)*
 
-**Solo aplica a mapas,** Si tu skin de mapa contiene un solo elemento de los sets listados En los Criterios de Ranking, Tambien deberá contener todos los demas elementos dentro de dicho set. Esto solo aplica a skins de mapas, pero puede que otros skinners quieran considerar estas listas tambien.
+**Solo aplica a mapas,** Si tu skin de mapa contiene un solo elemento de los sets listados en los Criterios de Ranking, Tambien deberá contener todos los demas elementos dentro de dicho set. Esto solo aplica a skins de mapas, pero puede que otros skinners quieran considerar estas listas tambien.
 
 ## Listas de elementos de skins
 
