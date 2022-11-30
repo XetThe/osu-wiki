@@ -29,4 +29,4 @@ La lista de elementos de skins esta separada en las siguientes categorias:
 - [Historia](/wiki/Skinning/History) - una lista de elementos de skinning viejos.
 - [Compendio](https://osu.ppy.sh/community/forums/topics/686664) - una lista de skins completadas
 - [Preguntas Frequentes](/wiki/Skinning/FAQ)
-- [Guides and important threads](/wiki/Skinning/Guides_and_important_threads)
+- [Guias de skinning e hilos importantes](/wiki/Skinning/Guides_and_important_threads)
