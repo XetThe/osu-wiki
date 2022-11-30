@@ -717,7 +717,7 @@ Notes:
 Notes:
 
 - Used when playing with 4:3 storyboards on widescreen.
-- In the [.osu](/wiki/Client/File_formats/Osu_(file_format)) file, set `WidescreenStoryboard` to 0 for this to appear.
+- In the [.osu](/wiki/Client/File_formats/Osu_(file_format)) file, set `WidescreenStoryboard` to `0` for this to appear.
 - This element is stretched to fit the needed area.
 - The right pillar is flipped horizontally.
 
