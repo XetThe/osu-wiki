@@ -57,7 +57,7 @@ Notes:
 
 - If not skinned, the current game mode's small icon will be used instead.
 - Must be enabled in the [options](/wiki/Client/Options) to see.
-  - This option may forcibly be enabled during the holidays (Christmas).
+  - This option may forcibly be enabled during the holidays (Christmas and Haloween).
 
 ## Button
 
